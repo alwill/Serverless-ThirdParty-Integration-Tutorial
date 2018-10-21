@@ -21,7 +21,7 @@ namespace AlexWill
             await signalRMessages.AddAsync(new SignalRMessage
             {
                 Target = "feedback",
-                Arguments = new object[] { customerFeedBack }
+                Arguments = new object[] { customerFeedBackJson }
             });
         }
     }

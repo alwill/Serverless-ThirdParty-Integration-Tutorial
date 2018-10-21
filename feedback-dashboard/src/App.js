@@ -9,7 +9,7 @@ class App extends Component {
     fetch(process.env.REACT_APP_SIGNALR_CONNECTION, {
       method: "GET",
       headers: {
-        "x-functions-key": REACT_APP_SIGNALR_CONNECTION_API_KEY
+        "x-functions-key": process.env.REACT_APP_SIGNALR_CONNECTION_API_KEY
       }
     })
       .then(resp => resp.json())
