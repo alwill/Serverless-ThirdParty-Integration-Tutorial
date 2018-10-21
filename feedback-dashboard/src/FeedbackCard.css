@@ -1,0 +1,13 @@
+.grid {
+  display: grid;
+  grid-template-areas:
+    "customername customerorg customerlocation"
+    "overall comments  products";
+  margin: 2%;
+  min-height: 100px;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  text-align: center;
+  box-shadow: 2px 2px 2px 1px lightgray;
+  background-color: #e5e7e9;
+}
